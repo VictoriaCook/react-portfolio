@@ -5,13 +5,14 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <div>
-      <Router>
+      <Home />
+      {/* <Router basename="/portfolio"> */}
         {/* <Header /> */}
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
-        </Routes>
+        </Routes> */}
         {/* <Footer /> */}
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
