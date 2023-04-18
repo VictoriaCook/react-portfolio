@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    color: #a99d9da2;
+    align-items: center;
+    background-color: red;
+  }
+  
+.type-writer {
+    padding: 50px;
+    margin: 0 auto;
+  }
