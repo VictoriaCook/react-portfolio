@@ -10,13 +10,13 @@ function App() {
     <div>
       {/* <Home /> */}
       {/* <About /> */}
-      <Header />
-      {/* <Router> 
+      {/* <Header /> */}
+      <Router> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
-       </Router> */}
+       </Router>
     </div>
   );
 }
