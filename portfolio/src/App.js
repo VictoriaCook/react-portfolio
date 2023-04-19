@@ -1,18 +1,21 @@
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 
 function App() {
   return (
     <div>
-      <Home />
-      {/* <Router basename="/portfolio"> */}
+      {/* <Home /> */}
+      <Router> 
         {/* <Header /> */}
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
-        </Routes> */}
+          <Route path="about" element={<About />} />
+        </Routes>
         {/* <Footer /> */}
-      {/* </Router> */}
+       </Router>
     </div>
   );
 }
