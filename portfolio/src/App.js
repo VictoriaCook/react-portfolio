@@ -11,15 +11,16 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div>
-      {/* <Header /> */}
+      
       <Router> 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
        </Router>
     </div>
   );

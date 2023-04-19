@@ -1,11 +1,11 @@
 :root {
   --background-colour: #ffffff;
   --primary-text-colour: #3a3535a2;
-  --secondary-text-colour: #2d6de3a2;
+  --secondary-text-colour: #AFBC88;
+  /* --secondary-text-colour: #2d6de3a2;
   --secondary-text-colour2: #39b487a2;
-  --secondary-text-colour3: #AFBC88;
-  --secondary-text-colour4: #FDB833;
-  --secondary-text-colour5: #885A5A;
+   --secondary-text-colour4: #FDB833;
+  --secondary-text-colour5: #885A5A; */
 }
 
 /* .App {
