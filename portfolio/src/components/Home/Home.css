@@ -1,10 +1,14 @@
-.container {
+.main-container {
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     font-size: 25px;
     /* color: #a99d9da2; */
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+    margin-bottom: 20%;
     /* background-color: green; */
   }
   
@@ -12,6 +16,6 @@
     padding: 50px;
     margin: 0 auto;
     font-weight: 300;
-    color: #686060a2;
+    color: #3a3535a2;
     text-align: center;
   }
