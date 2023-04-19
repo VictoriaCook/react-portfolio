@@ -4,17 +4,15 @@ import './Home.css';
 
 export default function Home() {
     return (
-        <div>
-            <div class="container">
-                <div class="type-writer">
-                    <Typed
-                    strings={['Hello! My name is Victoria.', `I'm a software engineer.`, 'Welcome to my portfolio.']}
-                    typeSpeed={40}
-                    backSpeed={40}
-                    loop >
-                    </Typed>
-                </div>
-            </div>   
-        </div>
+        <div className="main-container">
+            <div className="type-writer">
+                <Typed
+                strings={['Hello! My name is Victoria.', `I'm a software engineer.`, 'Welcome to my portfolio.']}
+                typeSpeed={40}
+                backSpeed={40}
+                loop >
+                </Typed>
+            </div>
+        </div>   
       )
   }
