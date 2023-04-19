@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Header.css';
-// import '../styles/Navbar.css';
-// import ReorderIcon from '@material-ui/icons/Reorder';
 
 export default function Navbar() {
 
@@ -21,7 +19,7 @@ export default function Navbar() {
             </div>
             <div className="NavLinks">
                 <NavLink to="/">About</NavLink>
-                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
                 <NavLink to="/resume">Resume</NavLink>
             </div>
