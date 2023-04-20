@@ -23,6 +23,12 @@ button {
     height: 30px;
 }
 
+textarea {
+    height: 25%;
+    width: 30%;
+    resize: none;
+}
+
 /* @media only screen and (max-width: 900px) {
     .form {
         width: 90%;
