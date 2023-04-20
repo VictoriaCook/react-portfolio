@@ -8,7 +8,7 @@ function Footer() {
             <div className="socialLinks">
                 <a href="https://github.com/VictoriaCook" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://www.linkedin.com/in/victoria-cook-17140a209/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
-                <a href="mailto:victoriarccook@gmail.com" target="_blank" rel="noopener noreferrer">Mail</a>
+                <a href="mailto:victoriarccook@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
             </div>
             <p> 
                 &copy; 2023
