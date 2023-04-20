@@ -4,6 +4,7 @@ import "./Contact.css";
 export default function Contact() {
     return (
         <div className="main-container">
+           <h2 className="heading"> Contact Me </h2>
             <form className="form">
                 <label>Name:</label>
                 <br></br>
