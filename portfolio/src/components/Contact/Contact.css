@@ -1,0 +1,44 @@
+.main-container {
+    padding: 50px;
+    margin: 0 auto;
+    font-weight: 300;
+    color: var( --primary-text-colour);
+    text-align: center;
+  }
+
+button { 
+    background-color: var(--secondary-text-colour);
+    color: var(--background-colour);
+    border: none;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form input, textarea {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+/* @media only screen and (max-width: 900px) {
+    .form {
+        width: 90%;
+        margin: 20px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .form{
+        width: 25%;
+    }
+    textarea{
+        width: 100%;
+    }
+} */
