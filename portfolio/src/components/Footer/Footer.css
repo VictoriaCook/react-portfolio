@@ -11,6 +11,7 @@
 
 .socialLinks a {
     color: var(--primary-text-colour);
+    padding: 10px;
 }
 
 a:link {
