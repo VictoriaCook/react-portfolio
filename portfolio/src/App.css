@@ -9,17 +9,12 @@
 }
 
 .main-container {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
   font-size: 25px;
-  /* color: #a99d9da2; */
   align-items: center;
-  /* margin: 0 auto; */
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20%;
   margin-bottom: 20%;
-  /* background-color: green; */
 }
 
 /* .App {
