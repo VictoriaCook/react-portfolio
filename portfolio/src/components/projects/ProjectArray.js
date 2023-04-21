@@ -1,4 +1,4 @@
-import blank from "../../assets/blank.pdf";
+import shareShed from "../../assets/shareShed.gif";
 import quizDemo from "../../assets/quizDemo.gif";
 
 const ProjectArray = [
@@ -7,7 +7,7 @@ const ProjectArray = [
         name: "Share Shed",
         deployedLink: "https://obscure-woodland-19082.herokuapp.com/",
         repoLink: "https://github.com/wolldog/share-shed",
-        gif: quizDemo,
+        gif: shareShed,
       },
       {
         id: 2,
