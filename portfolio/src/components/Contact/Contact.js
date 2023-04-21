@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
 export default function Contact() {
+    
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleInputChange = (e) => {
+
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'email') {setEmail(inputValue)}; 
+        if (inputType === 'name') {setName(inputValue)};
+        if (inputType === 'message') {setMessage(inputValue)};
+    };
+    
     return (
         <div className="main-container">
            <h2 className="heading"> Contact Me </h2>
@@ -9,30 +25,33 @@ export default function Contact() {
                 <label>Name:</label>
                 <br></br>
                 <input
-                    value="name"
+                    value={name}
                     name="name"
                     type="text"
                     placeholder="Name"
+                    onChange={handleInputChange}
                 />
                 <br></br>
                 <label>Email address:</label>
                 <br></br>
                 <input
-                    value="email"
+                    value={email}
                     name="email"
                     type="email"
                     placeholder="Email"
+                    onChange={handleInputChange}
                 />
                 <br></br>
                 <label>Message:</label><br></br>
                 <textarea rows="15" cols="50"
-                    value="message"
+                    value={message}
                     name="message"
                     type="message"
+                    onChange={handleInputChange}
                 />
                 <br></br>
                 <button type="button" id="submitBtn">Submit</button>
             </form>
         </div>
     );
-  }
+  };
