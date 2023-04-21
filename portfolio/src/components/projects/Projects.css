@@ -66,6 +66,6 @@
 .single-project a, h1 {
     font-size: 25px;
     text-decoration: none;
-    color:white;
+    color: var(--primary-text-colour);
 }
 
