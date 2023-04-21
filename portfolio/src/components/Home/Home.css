@@ -1,0 +1,8 @@
+.type-writer {
+    padding: 50px;
+    margin: 0 auto;
+    font-weight: 300;
+    color: var( --primary-text-colour);
+    /* color: #3a3535a2; */
+    text-align: center;
+  }
