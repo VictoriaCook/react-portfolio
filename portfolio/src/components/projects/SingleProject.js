@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function SingleProject({ gif, name, url }) {
+export default function SingleProject({ gif, name, deployedLink }) {
     return (
         <div className="single-project">
             <div style={{ backgroundImage: `url(${gif})` }} className="bgImage"></div>
-            <a href={url}>{name}</a>
+            <a href={deployedLink}>{name}</a>
         </div>
     )
 }
