@@ -29,6 +29,20 @@ const ProjectArray = [
         deployedLink: "https://watch.screencastify.com/v/KiuAM3UqTiX7nWSWexnJ",
         repoLink: "https://github.com/VictoriaCook/ecommerce-backend",
         gif: quizDemo,
+      },
+      {
+        id: 5,
+        name: "Social Network API",
+        deployedLink: "https://watch.screencastify.com/v/tZbTfOlcRNlVmJXwpcUy",
+        repoLink: "https://github.com/VictoriaCook/social-network-api",
+        gif: quizDemo,
+      },
+      {
+        id: 6,
+        name: "Team Profile Generator",
+        deployedLink: "https://watch.screencastify.com/v/1ImIHltgNpddxWWugrTX",
+        repoLink: "https://github.com/VictoriaCook/team-profile-generator",
+        gif: quizDemo,
       }
 ];
 
