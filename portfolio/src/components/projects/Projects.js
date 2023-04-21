@@ -1,4 +1,6 @@
 import React from "react";
+import Carousel from 'react-bootstrap-carousel';
+import ProjectArray from './ProjectArray';
 
 export default function Projects() {
     return (

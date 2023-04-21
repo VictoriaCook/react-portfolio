@@ -1,5 +1,5 @@
 import blank from "../../assets/blank.pdf";
-import quizDemo from "../../assets/quiz-demo.gif";
+import quizDemo from "../../assets/quizDemo.gif";
 
 export const projectArray = [
     {
