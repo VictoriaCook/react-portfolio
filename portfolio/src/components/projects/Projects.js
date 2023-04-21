@@ -9,7 +9,7 @@ export default function Projects() {
         <h2>Projects</h2>
         <div className="projectList">
                 {ProjectArray.map((project) => {
-                    return <SingleProject name={project.name} gif={project.gif} url={project.deployedLink} />;
+                    return <SingleProject name={project.name} gif={project.gif} url={project.url} />;
                 })}
             </div>
         </div>
