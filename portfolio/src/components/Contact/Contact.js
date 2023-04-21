@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./Contact.css";
+// import { NavLink } from 'react-router-dom';
 
 export default function Contact() {
     
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [error, setError] = useState('');
+    const [response, setResponse] = useState('');
 
     const handleInputChange = (e) => {
 
@@ -23,22 +24,22 @@ export default function Contact() {
         e.preventDefault();
 
         if (!name || !email || !message) {
-            setError('Oops! All fields are required. Please try again.');
-            return;
+            setResponse('Oops! All fields are required. Please try again.');
+        } else {
+            setResponse('Thanks for getting in touch!');
         }
         
         setName('');
         setEmail('');
         setMessage('');
-        setError('');
     };
 
     return (
         <div className="main-container">
            <h2 className="heading"> Contact Me </h2>
-           {error && (
+           {response && (
                 <div>
-                    <p className="error-text">{error}</p>
+                    <p className="error-text">{response}</p>
                 </div>
             )}
             <form className="form">
