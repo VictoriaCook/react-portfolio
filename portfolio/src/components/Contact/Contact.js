@@ -49,7 +49,7 @@ export default function Contact() {
                     value={name}
                     name="name"
                     type="text"
-                    placeholder="Name"
+                    // placeholder="Name"
                     onChange={handleInputChange}
                 />
                 <br></br>
@@ -59,7 +59,7 @@ export default function Contact() {
                     value={email}
                     name="email"
                     type="email"
-                    placeholder="Email"
+                    // placeholder="Email"
                     onChange={handleInputChange}
                 />
                 <br></br>
@@ -68,6 +68,7 @@ export default function Contact() {
                     value={message}
                     name="message"
                     type="message"
+                    // placeholder="Message"
                     onChange={handleInputChange}
                 />
                 <br></br>
