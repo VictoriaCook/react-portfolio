@@ -1,4 +1,5 @@
 import shareShed from "../../assets/shareShed.gif";
+import weatherApp from "../../assets/weatherApp.gif";
 import quizDemo from "../../assets/quizDemo.gif";
 
 const ProjectArray = [
@@ -14,7 +15,7 @@ const ProjectArray = [
         name: "Weather Dashboard",
         deployedLink: "https://victoriacook.github.io/weather-forecast/",
         repoLink: "https://github.com/VictoriaCook/weather-forecast",
-        gif: quizDemo,
+        gif: weatherApp,
       },
       {
         id: 3,
