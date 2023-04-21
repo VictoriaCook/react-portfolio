@@ -1,20 +1,20 @@
 import blank from "../../assets/blank.pdf";
 import quizDemo from "../../assets/quizDemo.gif";
 
-export const projectArray = [
+const ProjectArray = [
     {
         id: 1,
         name: "Share Shed",
         deployedLink: "https://obscure-woodland-19082.herokuapp.com/",
         repoLink: "https://github.com/wolldog/share-shed",
-        gif: blank,
+        gif: quizDemo,
       },
       {
         id: 2,
         name: "Weather Dashboard",
         deployedLink: "https://victoriacook.github.io/weather-forecast/",
         repoLink: "https://github.com/VictoriaCook/weather-forecast",
-        gif: blank,
+        gif: quizDemo,
       },
       {
         id: 3,
@@ -28,6 +28,8 @@ export const projectArray = [
         name: "Ecommerce Backend",
         deployedLink: "https://watch.screencastify.com/v/KiuAM3UqTiX7nWSWexnJ",
         repoLink: "https://github.com/VictoriaCook/ecommerce-backend",
-        gif: blank,
+        gif: quizDemo,
       }
 ];
+
+export default ProjectArray;
