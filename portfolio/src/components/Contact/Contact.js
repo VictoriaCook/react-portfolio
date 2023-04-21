@@ -6,6 +6,7 @@ export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [error, setError] = useState('');
 
     const handleInputChange = (e) => {
 
@@ -18,9 +19,28 @@ export default function Contact() {
         if (inputType === 'message') {setMessage(inputValue)};
     };
     
+    const handleSubmitBtn = (e) => {
+        e.preventDefault();
+
+        if (!name || !email || !message) {
+            setError('Oops! All fields are required. Please try again.');
+            return;
+        }
+        
+        setName('');
+        setEmail('');
+        setMessage('');
+        setError('');
+    };
+
     return (
         <div className="main-container">
            <h2 className="heading"> Contact Me </h2>
+           {error && (
+                <div>
+                    <p className="error-text">{error}</p>
+                </div>
+            )}
             <form className="form">
                 <label>Name:</label>
                 <br></br>
@@ -50,7 +70,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                 />
                 <br></br>
-                <button type="button" id="submitBtn">Submit</button>
+                <button type="button" id="submitBtn" onClick={handleSubmitBtn}>Submit</button>
             </form>
         </div>
     );
