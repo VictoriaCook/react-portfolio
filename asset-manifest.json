@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VictoriaCook/react-portfolio/static/css/main.a6eef8be.css",
+    "main.js": "/VictoriaCook/react-portfolio/static/js/main.01249a75.js",
+    "static/js/787.1ed0c42c.chunk.js": "/VictoriaCook/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/teamProfileGenerator.gif": "/VictoriaCook/react-portfolio/static/media/teamProfileGenerator.4a179e522ef10ccc440e.gif",
+    "static/media/ecommerceBackend.gif": "/VictoriaCook/react-portfolio/static/media/ecommerceBackend.6844b11991fc005ed6a0.gif",
+    "static/media/socialNetworkApi.gif": "/VictoriaCook/react-portfolio/static/media/socialNetworkApi.d49627b1495135a3fab7.gif",
+    "static/media/weatherApp.gif": "/VictoriaCook/react-portfolio/static/media/weatherApp.6d970f28049a35ddaced.gif",
+    "static/media/shareShed.gif": "/VictoriaCook/react-portfolio/static/media/shareShed.34f55548c15bad7c095d.gif",
+    "static/media/quizDemo.gif": "/VictoriaCook/react-portfolio/static/media/quizDemo.f809ce631baf42e3f7af.gif",
+    "index.html": "/VictoriaCook/react-portfolio/index.html",
+    "static/media/blank.pdf": "/VictoriaCook/react-portfolio/static/media/blank.72ed0ca728c5be2034e1.pdf",
+    "main.a6eef8be.css.map": "/VictoriaCook/react-portfolio/static/css/main.a6eef8be.css.map",
+    "main.01249a75.js.map": "/VictoriaCook/react-portfolio/static/js/main.01249a75.js.map",
+    "787.1ed0c42c.chunk.js.map": "/VictoriaCook/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6eef8be.css",
+    "static/js/main.01249a75.js"
+  ]
+}
